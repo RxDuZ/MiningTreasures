@@ -1,0 +1,16 @@
+diamond:
+  chance: 10
+  commands:
+    - "give {PLAYER} diamond"
+emerald:
+  chance: 8
+  commands:
+    - "give {PLAYER} emerald"
+coins:
+  chance: 4
+  commands:
+    - "givemoney {PLAYER} 1000"
+sword:
+  chance: 2
+  commands:
+    - "give {PLAYER} diamond_sword"

@@ -1,0 +1,5 @@
+PLAYER_FOUND_TREASURE: "{PREFIX}&6{PLAYER} &aencontro un tesoro minando!"
+PLAYER_OPEN_TREASURE: "{PREFIX}&aFelicidades abriste el tesoro &e({TREASURE})"
+
+COMMAND_TREASURE_GIVE: "{PREFIX}&aEl jugador {PLAYER} recibio x{COUNT} Tesoro."
+COMMAND_TREASURE_RECEIVED: "{PREFIX}&aRecibiste x{COUNT} Tesoro."

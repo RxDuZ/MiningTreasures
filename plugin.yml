@@ -1,0 +1,10 @@
+name: MiningTreasures
+main: rxduz\treasures\Main
+api: 5.15.0
+version: 1.0
+author: "iRxDuZ"
+
+permissions:
+  treasure.command.use:
+    description: "Allow to use /treasure command"
+    default: op

@@ -1,0 +1,50 @@
+
+#     ▄▄▄▄███▄▄▄▄    ▄█  ███▄▄▄▄    ▄█  ███▄▄▄▄      ▄██████▄      ███        ▄████████    ▄████████    ▄████████    ▄████████ ███    █▄     ▄████████    ▄████████ 
+#   ▄██▀▀▀███▀▀▀██▄ ███  ███▀▀▀██▄ ███  ███▀▀▀██▄   ███    ███ ▀█████████▄   ███    ███   ███    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███ 
+#   ███   ███   ███ ███▌ ███   ███ ███▌ ███   ███   ███    █▀     ▀███▀▀██   ███    ███   ███    █▀    ███    ███   ███    █▀  ███    ███   ███    ███   ███    █▀  
+#   ███   ███   ███ ███▌ ███   ███ ███▌ ███   ███  ▄███            ███   ▀  ▄███▄▄▄▄██▀  ▄███▄▄▄       ███    ███   ███        ███    ███  ▄███▄▄▄▄██▀  ▄███▄▄▄     
+#   ███   ███   ███ ███▌ ███   ███ ███▌ ███   ███ ▀▀███ ████▄      ███     ▀▀███▀▀▀▀▀   ▀▀███▀▀▀     ▀███████████ ▀███████████ ███    ███ ▀▀███▀▀▀▀▀   ▀▀███▀▀▀     
+#   ███   ███   ███ ███  ███   ███ ███  ███   ███   ███    ███     ███     ▀███████████   ███    █▄    ███    ███          ███ ███    ███ ▀███████████   ███    █▄  
+#   ███   ███   ███ ███  ███   ███ ███  ███   ███   ███    ███     ███       ███    ███   ███    ███   ███    ███    ▄█    ███ ███    ███   ███    ███   ███    ███ 
+#    ▀█   ███   █▀  █▀    ▀█   █▀  █▀    ▀█   █▀    ████████▀     ▄████▀     ███    ███   ██████████   ███    █▀   ▄████████▀  ████████▀    ███    ███   ██████████ 
+#                                                                            ███    ███                                                     ███    ███              
+
+# Worlds availables
+available-worlds: ["world"]
+
+# Blocks available to increase block counter
+available-blocks:
+  - "gold"
+  - "iron"
+  - "emerald_block"
+  - "diamond_block"
+  - "lapis_block"
+  - "lapis_lazuli_ore"
+  - "glowing_redstone_ore"
+  - "iron_ore"
+  - "diamond_ore"
+  - "gold_ore"
+  - "coal_ore"
+  - "nether_quartz_ore"
+  - "emerald_ore"
+
+# Blocks that must be broken to drop treasure
+blocks-amount-to-drop: 50
+
+# Chance to drop treasure (1 - 100 %)
+chance-to-drop: 30
+
+# Representative treasure item
+treasure-item: chest
+
+# Item customname
+treasure-item-name: "&l&6» &aTreasure &6«&r\n&7Click derecho para abrir"
+
+# Item lore
+treasure-item-lore: "&7Encuentra estos tesoros minando!"
+
+# Sound when finding a treasure
+found-treasure-sound: "note.chime"
+
+# Sound when opening treasure
+open-treasure-sound: "random.levelup"
