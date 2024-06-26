@@ -40,7 +40,7 @@ class BlockListener implements Listener {
 
                         Utils::playSound($player, Main::getInstance()->getConfig()->get("found-treasure-sound"));
 
-                        Server::getInstance()->broadcastMessage(Translation::getInstance()->getMessage("PLAYER_FOUND_TREASURE", ["{PREFIX}" => Main::PREFIX, "{PLAYER}" => $player->getName()]));
+                        if(Main::getInstance()->getConfig()->get("broadcast-message-to-find", false)) Server::getInstance()->broadcastMessage(Translation::getInstance()->getMessage("PLAYER_FOUND_TREASURE", ["{PREFIX}" => Main::PREFIX, "{PLAYER}" => $player->getName()]));
                     }
 
                     TreasureManager::getInstance()->resetBreakBlocks($player);

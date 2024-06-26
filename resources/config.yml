@@ -43,6 +43,9 @@ treasure-item-name: "&l&6» &aTreasure &6«&r\n&7Click derecho para abrir"
 # Item lore
 treasure-item-lore: "&7Encuentra estos tesoros minando!"
 
+# Message when finding treasure
+broadcast-message-to-find: true
+
 # Sound when finding a treasure
 found-treasure-sound: "note.chime"
 
