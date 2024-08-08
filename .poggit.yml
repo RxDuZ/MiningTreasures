@@ -5,5 +5,5 @@ branches:
 projects:
   MiningTreasures:
     path: ""
-    icon: icon-repairui.png
+    icon: icon-treasure.png
 ...
