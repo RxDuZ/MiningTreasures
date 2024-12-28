@@ -1,9 +1,8 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/RxDuZ/MiningTreasures
 build-by-default: true
 branches:
-- main
+  - main
 projects:
   MiningTreasures:
     path: ""
-    icon: icon-treasure.png
-...
+    icon: "img/MiningTreasures.png"
